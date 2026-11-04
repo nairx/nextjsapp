@@ -24,9 +24,9 @@ export default function RootLayout({ children }) {
     >
       <body className="min-h-full flex flex-col">
         <Header/>
-    
-        {children}
-        <h3>Copyright 2026. All rights reserved.</h3>
+    <div className="min-h-screen">{children}</div>
+       
+        <h3 className="bg-gray-300">Copyright 2026. All rights reserved.</h3>
       </body>
     </html>
   );
